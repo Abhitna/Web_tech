@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            color: black;
+            background-color: rgb(71, 131, 199);
+        }
+        button{
+            color: aliceblue;
+            background-color: rgb(21, 6, 105);
+        }
+        input{
+            background-color: aliceblue;
+        }
+        #form{
+            background-color: rgb(8, 11, 58);
+            color: rgb(246, 249, 250);
+        }
+        #address{
+                background-color: rgb(129, 233, 233);
+        }
+        #b{
+            color: black;
+            background-color: rgb(159, 209, 147);
+        }
+        #o{
+            color: white;
+            background-color: rgb(6, 0, 12);
+        }
+        
+        
+        </style>
+</head>
+<body>
+    <form>
+    <fieldset >
+        <center>
+        <table >
+            <legend id="form">REGISTRATION FORM</legend>
+            <tr>
+                <td><label for="a" id="b">First name</label></td>
+                <td><input type="text" id="a" name="a"></td>
+            </tr>
+            <tr>
+                <td><label for="k" id="b">Middle Name</label></td>
+                <td><input type="text" id="k" name="k"></td>
+            </tr>
+            <tr>
+                <td><label for="c" id="b">Last name</label></td>
+                <td><input type="text" id="c" name="c"></td>
+            </tr>
+            <tr>
+                <td><label for="d" id="b">User name</label></td>
+                <td><input type="text" id="d" name="d"></td>
+            </tr>
+            <tr>
+                <td><label for="e" id="b">Mother's name</label></td>
+                <td><input type="text" id="e" name="e"></td>
+            </tr>
+            <tr>
+                <td><label for="f" id="b">Father's name</label></td>
+                <td><input type="text" id="f" name="f"></td>
+            </tr>
+            <tr>
+                <td id="b">Gender:</td>
+                <td>
+                    <input type="radio" name="Gender" id="male"><label for="male">Male</label>
+                    <input type="radio" name="Gender" id="female"><label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="g" id="b">Phone</label></td>
+                <td><input type="number" id="g" name="g"></td>
+            </tr>
+            <tr>
+                <td><label for="h" id="b">DOP</label></td>
+                <td><input type="date" id="h" name="h"></td>
+            </tr>
+            <tr>
+                <td id="b">State</td>
+                <td>
+                    <select name="state" id="state">
+                        <option value="Kerala">Kerala</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Tamilnadu">Tamilnadu</option>
+                        <option value="Andrapradesh">Andrapradesh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="i" id="b">Email</label></td>
+                <td><input type="email" id="i" name="i"></td>
+            </tr>
+            <tr>
+                <td id="b">Address</td>
+                <td><textarea name="address" id="address" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="j" id="b">Resume</label></td>
+                <td><input type="file" id="j" name="j"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="o">
+                    <button>Cancel</button>
+                </td>
+            </tr>
+        </table>
+    </center>
+    </fieldset>
+    </form>
+</body>
+</html>
